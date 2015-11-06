@@ -27,7 +27,7 @@ def repeat_to_length(string_to_expand, length):
 def encrypt(string, password):
     origin_str = string
     if len(password) > 8:
-        print("Cannot encrypt - your password is too long. Pedoterrorists might use it.")
+        print("Cannot encrypt - your password is too long. Paedoterrorists might use it.")
     # First pass
     # Use 15 passes of rot13 to ensure the string is secure.
     for x in range(0, 15):
@@ -72,8 +72,8 @@ def encrypt(string, password):
 -----END UKSECURITY ENCRYPTED STRING DATA------""".format("".join(body_b64.decode()[i:i+64] + "\n" for i in range(0,len(body_b64.decode()),64)), bcrc32, b64crc32)
 
 def decrypt(string, password):
-    print("You have attempted to obtain illegal material, and as such you have been classified a pedoterrorphile.")
-    print("GHCQ agents will arrive at your location shortly to ship you on an all expenses paid vacation to Guantanamo Bay.")
+    print("You have attempted to obtain illegal material, and as such you have been classified a paedoterrorphile.")
+    print("GHCQ agents will arrive at your location shortly to ship you on an all expenses paid vacation to HM Prison Wakefield.")
 
 if __name__ == '__main__':
     choice = input("Type `e` to encrypt, or `d` to decrypt: ")
