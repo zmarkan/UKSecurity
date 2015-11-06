@@ -73,7 +73,7 @@ def encrypt(string, password):
 
 def decrypt(string, password):
     print("You have attempted to obtain illegal material, and as such you have been classified a paedoterrorphile.")
-    print("GHCQ agents will arrive at your location shortly to ship you on an all expenses paid vacation to HM Prison Wakefield.")
+    print("GCHQ agents will arrive at your location shortly to ship you on an all expenses paid vacation to HM Prison Wakefield.")
 
 if __name__ == '__main__':
     choice = input("Type `e` to encrypt, or `d` to decrypt: ")
